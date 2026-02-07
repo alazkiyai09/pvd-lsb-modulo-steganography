@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+*.tiff
+*.png
+metadata.txt
+Metadata2.txt
+Output.txt
+stego.*
