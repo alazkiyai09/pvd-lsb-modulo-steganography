@@ -258,6 +258,7 @@ Detailed results are available in the `Experiment/*.xlsx` spreadsheets.
 | **NIST DRBG Deviation** | `rightmost()` returns leftmost bits instead of rightmost per NIST spec | Does not affect round-trip correctness; documented in code |
 | **Fixed DRBG Parameters** | Entropy, nonce, and personalization string are hardcoded | Should be derived from a user-provided key in production use |
 | **Out-of-Bound Threshold** | `extract_out_of_bound_pixel()` uses hardcoded threshold of 5 | Edge case at exactly P=5 is ambiguous |
+| **Test Images Not Included** | Test images not included due to repository size limits | Users must provide their own test images |
 
 See the full analysis in the [Research Concerns & Improvements](https://github.com/alazkiyai09/pvd-lsb-modulo-steganography/blob/main/README.md#known-limitations) section.
 
